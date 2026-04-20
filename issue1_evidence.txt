@@ -1,0 +1,9 @@
+============== ISSUE 1: TEST DU LIEU HOP LE ==============
+Bai 1 - Chu vi HCN (3, 4): 14.0
+Bai 2 - Dien tich HCN (3, 4): 12.0
+Bai 3 - Giai PT bac 2 (1, -3, 2): Phuong trinh co 2 nghiem phan biet: x1 = 2.0, x2 = 1.0
+Bai 4 - Ngay cua thang 2/2024: 29
+Bai 5 - So 7 co phai so nguyen to? true
+Bai 6 - Tong S = 1 - 2 + 3 - 4 + 5: 3
+Bai 7 - UCLN cua 12 va 18: 6
+Bai 8 - Tong S = 1! + ... + 4!: 33
