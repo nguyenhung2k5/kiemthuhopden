@@ -1,5 +1,7 @@
 public class ThucHanh03 {
 
+    // Bo ham cho bai thuc hanh kiem thu hop den.
+
     public static double tinhChuViHCN(double a, double b) {
         if (a <= 0 || b <= 0) {
             throw new IllegalArgumentException("Chieu dai va chieu rong phai lon hon 0");
@@ -89,6 +91,7 @@ public class ThucHanh03 {
         if (b == 0)
             return a;
 
+        // Euclid algorithm
         while (b != 0) {
             int temp = b;
             b = a % b;
@@ -135,28 +138,28 @@ public class ThucHanh03 {
         try {
             System.out.print("Bai 1 - Chu vi voi canh am (-3, 4): ");
             tinhChuViHCN(-3, 4);
-        } catch (Exception e) {
+        } catch (IllegalArgumentException e) {
             System.out.println("Loi -> " + e.getMessage());
         }
 
         try {
             System.out.print("Bai 2 - Dien tich voi canh am (3, -4): ");
             tinhDienTichHCN(3, -4);
-        } catch (Exception e) {
+        } catch (IllegalArgumentException e) {
             System.out.println("Loi -> " + e.getMessage());
         }
 
         try {
             System.out.print("Bai 3 - PT bac 2 voi a=0 (0, 5, 2): ");
             giaiPhuongTrinhBac2(0, 5, 2);
-        } catch (Exception e) {
+        } catch (IllegalArgumentException e) {
             System.out.println("Loi -> " + e.getMessage());
         }
 
         try {
             System.out.print("Bai 4 - So ngay cua thang 13: ");
             tinhSoNgayCuaThang(13, 2023);
-        } catch (Exception e) {
+        } catch (IllegalArgumentException e) {
             System.out.println("Loi -> " + e.getMessage());
         }
 
@@ -165,21 +168,21 @@ public class ThucHanh03 {
         try {
             System.out.print("Bai 6 - Tong dan dau voi n=0: ");
             tinhTongDanDau(0);
-        } catch (Exception e) {
+        } catch (IllegalArgumentException e) {
             System.out.println("Loi -> " + e.getMessage());
         }
 
         try {
             System.out.print("Bai 7 - UCLN cua 0 va 0: ");
             timUCLN(0, 0);
-        } catch (Exception e) {
+        } catch (IllegalArgumentException e) {
             System.out.println("Loi -> " + e.getMessage());
         }
 
         try {
             System.out.print("Bai 8 - Tong giai thua voi n=-2: ");
             tinhTongGiaiThua(-2);
-        } catch (Exception e) {
+        } catch (IllegalArgumentException e) {
             System.out.println("Loi -> " + e.getMessage());
         }
     }
