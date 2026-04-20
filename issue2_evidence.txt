@@ -1,0 +1,9 @@
+============== ISSUE 2: TEST DU LIEU KHONG HOP LE ==============
+Bai 1 - Chu vi voi canh am (-3, 4): Loi -> Chieu dai va chieu rong phai lon hon 0
+Bai 2 - Dien tich voi canh am (3, -4): Loi -> Chieu dai va chieu rong phai lon hon 0
+Bai 3 - PT bac 2 voi a=0 (0, 5, 2): Loi -> He so a phai khac 0 doi voi phuong trinh bac 2
+Bai 4 - So ngay cua thang 13: Loi -> Thang phai tu 1 den 12
+Bai 5 - So -5 co phai so nguyen to? false (Tra ve false hop ly)
+Bai 6 - Tong dan dau voi n=0: Loi -> n phai lon hon hoac bang 1
+Bai 7 - UCLN cua 0 va 0: Loi -> Khong co UCLN cho ca hai so bang 0
+Bai 8 - Tong giai thua voi n=-2: Loi -> n phai lon hon hoac bang 1
